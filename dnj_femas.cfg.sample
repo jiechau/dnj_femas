@@ -1,0 +1,10 @@
+# create a dnj_femas.cfg with the directory of dnj_femas.out
+gBrokerID=xxxx
+gUserID=xxxx
+gInvestorID=xxxx
+gPassword=xxxx
+gExchangeID=xxxx
+gClientID=xxxx
+gMAddr=tcp://111.222.333.444:12345
+gTAddr=tcp://111.222.333.444:12345
+basenamee=/home/jie/c_data
