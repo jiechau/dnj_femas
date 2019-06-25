@@ -1,3 +1,22 @@
+This is an interface. The original API provided by CFFEX (China Financial Futures Exchange) are writen in C++. The objective of this project is to wrap C++ API, and provide plain text input/output instead. Therefore you could use any programming language you want (e.g. python, project files in .py are examples) to call CFFEX API, doing e-trading jobs like get futures/options quotes, get account balance, and place order (the trading works).
+
+Now, there are trade-offs. 
+
+If you're doing position trading, holding an investment for an extended period of time like days, or weeks, or months, this interface might be suitable for you. You could get rid of complex c++ syntax, and apply your strategys/analyses in your favorite programming language. It's more Readable and you get high software maintainability. Life is easier.
+
+BUT. 
+
+But if you care about preformance, you care about milliseconds or nanoseconds btwn an API call and retuen stock/future quote (for example), or you are doing day trade or trade in high frequency. Don't use this interface. In my opinion, your only solution is to write everything in C++, since you care about performance.
+
+These programs are for our private team use only. No warranty. Any use of this interface is at your own risk. After all, the target of of these programs is to trade futures and options. It's money we're talking about (either your own money or someone else's money in most cases). So please be careful.
+
+And when I say money, I mean __A LOT OF__ money.
+
+davie & jie 2019
+吳坤 & 黃超 2019
+
+
+
 *** c_data 說明 ***
 
 qq (api)
